@@ -1,0 +1,268 @@
+/* admin login */
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+
+}
+body {
+  background-image: url('https://cdn.wallpapersafari.com/73/33/P9b2gR.jpg');;
+}
+div.container{
+  position: absolute;
+  width: 50%;
+  height: 70%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  background-color: white;
+  padding: 50px;
+  box-shadow: 0 50px 50px -50px darkslategray;
+}
+
+div.container div.myform{
+  width: 300px;
+  margin-right: 30px;
+}
+div.container div.myform h1{
+  color: #1c1c1e;
+  margin-bottom: 20px;
+}
+div.container div.myform input{
+  border: none;
+  outline: none;
+  border-radius: 0;
+  width: 100%;
+  border-bottom: 2px solid #1c1c1e;
+  margin-bottom: 25px;
+  padding: 7px 0;
+  font-size: 14px;
+}
+div.container div.myform button{
+  color: white;
+  background-color: #1c1c1e;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  font-size: 14px;
+  padding: 5px 12px;
+  font-weight: 500;
+  transition: .2s ease-in;
+	cursor: pointer;
+}
+div.container div.image img{
+  width: 300px;
+  display: flex;
+}
+div.container div.myform button:hover{
+	background: #1f6eff;
+  color: #ffffff;
+}
+div.container div.myform button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+.dropdown img {
+  margin: auto 5em;
+}
+.dropdown-menu strong  {
+  margin-left: 10px;
+  font-size: 20px
+}
+.dropdown-menu .email {
+  margin-left: 10px;
+  font-size: 15px
+}
+.dropdown-item {
+  margin-bottom: 5px
+}
+.alert {
+  background-color: rgb(255, 255, 255);
+  height: 3%;
+  width: 30%;
+  margin: 2px auto;
+  border: 2px solid rgb(241, 241, 241);
+}
+.alert .close {
+  width: 38px;
+  margin-left: 21rem;
+  margin-top: 1px; 
+}
+
+
+
+
+
+/* dashboard */
+  
+ .primary-text {
+  color: #000000;
+}
+  
+ .second-text {
+   color: rgb(70, 63, 63);
+}
+  
+.primary-bg {
+  background-color: #3e3e92
+}
+  
+.secondary-bg {
+  background-color: #ffffff;
+}
+  
+.rounded-full {
+  border-radius: 100%;
+}
+  
+#wrapper {
+  overflow-x: hidden;
+  background-color:  rgb(227, 228, 215);
+ }
+  
+#sidebar-wrapper {
+  background-color: #111526;
+  min-height: 100vh;
+  margin-left: -15rem;
+}
+  
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 2rem;
+  font-size: 1.2rem;
+}
+  
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+  
+#page-content-wrapper {
+  min-width: 100vw;
+  background-image: linear-gradient(0deg, white, 60%, #4f4f4f 35%);
+  background-position: 100%;
+}
+  
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+  
+#menu-toggle {
+  cursor: pointer;
+}
+  
+.list-group-item {
+  border: none;
+  padding: 20px 30px;
+}
+  
+.list-group-item.active {
+  background-color: transparent;
+  color: var(--main-text-color);
+  font-weight: bold;
+  border: none;
+}
+  
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+  
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+  
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+.email-sa-admin {
+  margin-left: 10px;
+  font-size: 13px;
+}
+
+
+/* admin bookings */
+
+.order-details {
+  padding: 0%;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 100%;
+  height: 70vh; /* Adjust the height as needed */
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  border-collapse: collapse;
+}
+
+.table {
+  width: 80%;
+  margin-left: 100px;
+  padding: 10px;
+  margin-top: 3%;
+}
+
+td, th {
+  border-right: 1px solid #bbbbbb;
+  text-align: left;
+  padding: 8px; /* Adjust the padding as needed */
+}
+
+tbody tr:hover {
+  background-color: rgb(151, 181, 206);
+}
+thead tr {
+  background: #00a2ff;
+  color: #000000;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+.button {
+  background-color: #2f3238;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12 px;
+  margin: 4px 2px;
+}
+.button:hover {
+  background: #3176f7;
+
+  
+}
+.button1 {
+  border-radius: 50%;
+}
+
+
+
+/* fabcon-detergent table */
+
+
+tbody {
+  background-color: #b6b6b6;
+}
+
+
+.card {
+  background-image: url('/image/istockphoto.jpg');
+}

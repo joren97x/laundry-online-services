@@ -1,0 +1,280 @@
+/* rider login */
+
+.form-login {
+    background-image: url('https://cdn.wallpapersafari.com/73/33/P9b2gR.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.form-horizontal {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.form-horizontal .form-icon .fa-shipping-fast {
+    line-height: 85px;
+    color: #001242;
+    margin: 0 0 13px;
+    font-size: 80px;
+}
+
+
+.form-horizontal .form-title {
+    color: #000000;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0 0 35px 0;
+    text-transform: uppercase;
+}
+
+.form-horizontal .form-group {
+    margin: 0 0 10px;
+    position: relative;
+}
+
+.form-horizontal .input-icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 13px;
+    color: #777;
+}
+
+.form-horizontal .form-control {
+    color: #555;
+    background-color: #fff;
+    font-size: 13px;
+    letter-spacing: 1px;
+    height: 37px;
+    padding: 2px 15px 2px 35px;
+    border: none;
+    border-radius: 20px;
+
+}
+
+.form-horizontal .form-control::placeholder {
+    color: rgb(0,0,0,0.7);
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.form-horizontal .btn-signin {
+    color: #fff;
+    background-color: #1f2020;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 50%;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.form-horizontal .btn-signin:hover {
+    background-color: #1654ff;
+    color: rgb(255, 255, 255);
+}
+
+
+
+/* rider dashboard */
+
+.dropdown img {
+    margin: auto 5em;
+  }
+  .dropdown-menu strong  {
+    margin-left: 10px;
+    font-size: 20px
+  }
+  .dropdown-menu .email {
+    margin-left: 10px;
+    font-size: 15px
+  }
+  .dropdown-item {
+    margin-bottom: 5px
+  }
+  .alert {
+    background-color: rgb(255, 255, 255);
+    height: 3%;
+    width: 30%;
+    margin: 2px auto;
+    border: 2px solid rgb(241, 241, 241);
+  }
+  .alert .close {
+    width: 38px;
+    margin-left: 21rem;
+    margin-top: 1px; 
+  }
+  
+  .navbar {
+    background-image: url(img/bg.jpg); 
+  }
+  
+  
+  
+  /* dashboard */
+    
+   .primary-text {
+    color: #000000;
+  }
+    
+   .second-text {
+     color: rgb(70, 63, 63);
+  }
+    
+  .primary-bg {
+    background-color: #3e3e92
+  }
+    
+  .secondary-bg {
+    background-color: #ffffff;
+  }
+    
+  .rounded-full {
+    border-radius: 100%;
+  }
+    
+  #wrapper {
+    overflow-x: hidden;
+    background-color:  rgb(227, 228, 215);
+   }
+    
+  #sidebar-wrapper {
+    background-image: url('https://cdn.wallpapersafari.com/73/33/P9b2gR.jpg');
+    min-height: 100vh;
+    margin-left: -15rem;
+  }
+    
+  #sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 2rem;
+    font-size: 1.2rem;
+  }
+    
+  #sidebar-wrapper .list-group {
+    width: 15rem;
+  }
+    
+  #page-content-wrapper {
+    min-width: 100vw;
+    background-color: #e0edf7 ;
+  }
+    
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+  }
+    
+  #menu-toggle {
+    cursor: pointer;
+  }
+    
+  .list-group-item {
+    border: none;
+    padding: 20px 30px;
+  }
+    
+  .list-group-item.active {
+    background-color: transparent;
+    color: var(--main-text-color);
+    font-weight: bold;
+    border: none;
+  }
+    
+  @media (min-width: 768px) {
+    #sidebar-wrapper {
+      margin-left: 0;
+    }
+    
+    #page-content-wrapper {
+      min-width: 0;
+      width: 100%;
+    }
+    
+    #wrapper.toggled #sidebar-wrapper {
+      margin-left: -15rem;
+    }
+  }
+  .email-sa-admin {
+    margin-left: 10px;
+    font-size: 13px;
+  }
+  
+  
+  /* admin bookings */
+  
+  .order-details {
+    padding: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+    height: 70vh; /* Adjust the height as needed */
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+    border-collapse: collapse;
+  }
+  
+  .table {
+    width: 80%;
+    margin-left: 100px;
+    padding: 10px;
+    margin-top: 3%;
+  }
+  
+  td, th {
+    border-right: 1px solid #bbbbbb;
+    text-align: left;
+    padding: 8px; /* Adjust the padding as needed */
+  }
+  
+  tbody tr:hover {
+    background-color: rgb(151, 181, 206);
+  }
+  thead tr {
+    background: #49494b;
+    color: #eee;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  .button {
+    background-color: #2f3238;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+  }
+  .button:hover {
+    background: #3176f7;
+  
+    
+  }
+  .button1 {
+    border-radius: 50%;
+  }
+  
+  
+  
+  /* fabcon-detergent table */
+  
+  
+  tbody {
+    background-color: #b6b6b6;
+  }
+  
+  
+  .card {
+    background-image: url('/image/istockphoto.jpg');
+  }

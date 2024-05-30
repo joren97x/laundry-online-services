@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;  
+    list-style: none;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    box-shadow: 0 5px 10px rgb(14 55 54 / 10%);
+    padding: 20px 70px;
+    transition: 0.5s;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: black;
+    column-gap: 0.5rem;
+}
+.logo  a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.logo .bx {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.navbar {
+    display: flex;
+    column-gap: 0.5rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+    padding: 0.5rem 1rem;
+}
+
+.navbar a:hover {
+    background: rgb(255, 255, 255);
+    border-radius: 5rem;
+    color: rgb(121, 99, 99);
+    transition: background 0.5s;
+}
+
+#menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+}
+
+
+ .login:hover {
+    background-color: #85e3f3fd;  
+   
+}
+
+.login {
+    background: black;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    padding: 7px 20px;
+    transition: 0.3s;
+}
+.login a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Poppins' sans-serif;
+    
+}
+
+.btn-danger {
+    display: inline-block;
+    width: 15%;
+    font-size: 20px;
+    border-radius: 5rem;
+    transition: all .40s ease;
+}
+.btn a {
+    color: #000000;
+}
+.btn:hover {
+   
+    letter-spacing: 1px;
+}
+
+
+
+
+.form-main {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    position: relative;
+    z-index: 0;
+    font-family: 'Roboto Slab', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/laundry.png);
+    
+}
+
+.tab-content {
+    width: 80%;
+    height: 65vh;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    background: #fdfdfd;
+    padding: 50px 60px 70px;
+    text-align: center;
+   
+}
+
+.tab-content h3 {
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: #3c00a0;
+    position: relative;
+}
+
+.tab-content h3::after {
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: #3c00a0;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.form-outline {
+    background: #eaeaea;
+    margin-top: 15px;
+    border-radius: 3px;
+    display: flex;
+}
+
+.inputform {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 15px 10px;
+}
+
+.btnlogin button{   
+    width: 150px;
+    height: 2rem;
+    border: 1px #dfd5d5;
+    border-radius: 10px;
+    background-color: #afdaee;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logindetails a {
+    color: rgb(9, 13, 252);
+}
+
+.alert  {
+    
+    background: rgb(243, 128, 93);
+}
+
+.Register {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 45px;
+    position: relative;
+    z-index: 0;
+    font-family: 'Roboto Slab', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/laundry.png);
+} 
+
+.tab-content-register {
+    width: 80%;
+    height: 80vh;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fdfdfd;
+    padding: 50px 60px 70px;
+    text-align: center;
+}
+
+.tab-content-register h3 {
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: #3c00a0;
+    position: relative;
+}
+
+.tab-content-register h3::after {
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: #3c00a0;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footer-register p {
+    margin-top: 10px;
+    font-size: 10px;
+}
